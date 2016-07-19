@@ -22,12 +22,15 @@ for dev in devlist:
 					print(devid[event])
 					break
 
+if len(devid) < 2:
+	quit("Keyboard not fund")
 if devid[0] < devid[1]:
 	deviceid = devid[0]
 else:
 	deviceid = devid[1]
 deviceid = '/dev/input/event' + deviceid
 device = evdev.InputDevice(deviceid)
+device.grab()
 print(deviceid)
 while 1:
 	if 1 == 1:
