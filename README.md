@@ -2,6 +2,6 @@
 Use a scond keyboard only for shortcuts.
 
 Planned features:
-  - config file
+  - config file (cooming soon very)
   - setup.py
   - multipel keyboars
