@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options>
+	<keybindings>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_ESC</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F1</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F2</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F3</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F4</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F5</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F6</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F7</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F8</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F9</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F10</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F11</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F12</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_GRAVE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_1</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_2</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_3</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_4</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_5</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_6</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_7</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_8</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_9</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_0</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_MINUS</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_EQUAL</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_BACKSPACE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_TAB</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_Q</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_W</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_E</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_R</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_T</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_Y</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_U</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_I</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_O</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_P</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_LEFTBRACE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_RIGHTBRACE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_ENTER</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_CAPSLOCK</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_A</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_S</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_D</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_F</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_G</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_H</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_J</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_K</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_L</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_SEMICOLON</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_APOSTROPHE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_BACKSLASH</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_LEFTSHIFT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_102ND</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_Z</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_X</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_C</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_V</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_B</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_N</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_M</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_COMMA</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_DOT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_SLASH</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_RIGHTSHIFT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_LEFTCTRL</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_LEFTMETA</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_LEFTALT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_SPACE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_RIGHTALT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_RIGHTMETA</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_COMPOSE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_RIGHTCTRL</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_SYSRQ</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_SCROLLLOCK</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_PAUSE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_INSERT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_HOME</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_PAGEUP</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_DELETE</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_END</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_PAGEDOWN</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_UP</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_LEFT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_DOWN</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_RIGHT</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_NUMLOCK</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KPSLASH</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KPASTERISK</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KPMINUS</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP7</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP8</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP9</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KPPLUS</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP4</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP5</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP6</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP1</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP2</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP3</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KPENTER</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KP0</KEY>
+		</keybinding>
+		<keybinding>
+			<EXECUTE>set Command</EXECUTE>
+			<KEY>KEY_KPDOT</KEY>
+		</keybinding>
+	</keybindings>
+</options>
