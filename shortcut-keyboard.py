@@ -3,7 +3,19 @@ import os
 import time
 import evdev
 from evdev import InputDevice, categorize, ecodes
+import xml.etree.ElementTree as XML
 
+#Loading conf XML
+tree = XML.parse('shortcut.conf.xml')
+root = tree.getroot()
+conf = root[0]
+keyboardname = root[1].text
+keybindings = {}
+for a in conf:
+     tmp = {a[1].text : a[0].text}
+     keybindings.update(tmp)
+
+#get keyboard
 devices = [evdev.InputDevice(fn) for fn in evdev.list_devices()]
 devlist = []
 for device in devices:
@@ -11,7 +23,7 @@ for device in devices:
 event = 0
 devid = []
 for dev in devlist:
-	if "Logitech USB Keyboard" in dev:
+	if keyboardname in dev:
 		devid.append("")
 		for char in dev:
 			event = len(devid) - 1
@@ -32,36 +44,18 @@ deviceid = '/dev/input/event' + deviceid
 device = evdev.InputDevice(deviceid)
 device.grab()
 print(deviceid)
+
+
 while 1:
 	if 1 == 1:
 		keys = device.active_keys(verbose=True)
-		if "KEY_KP0" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 1.0" )
-		if "KEY_KP1" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.10" )
-		if "KEY_KP2" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.20" )
-		if "KEY_KP3" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.30" )
-		if "KEY_KP4" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.40" )
-		if "KEY_KP5" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.50" )
-		if "KEY_KP6" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.60" )
-		if "KEY_KP7" in str(device.active_keys(verbose=True)):
-			os.system("transset-df 0.70" )
-		if "KEY_KP8" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.80" )
-		if "KEY_KP9" in str(device.active_keys(verbose=True)):
-			print(device.active_keys(verbose=True))
-			os.system("transset-df 0.90" )
+		keys = device.active_keys(verbose=True)
+		if(len(keys) > 0):
+			keypress = keys[0]
+			print(keypress)
+			key = keypress[0]
+			print(key)
+			if(keybindings[key] == "set Command"):
+				continue
+			os.system(keybindings[key])
 		time.sleep(0.25)
