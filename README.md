@@ -1,7 +1,9 @@
 # shortcut-keyboard
 Use a scond keyboard only for shortcuts.
+included: 
+  + config file
+
 
 Planned features:
-  - config file (cooming soon very)
   - setup.py
   - multipel keyboars
